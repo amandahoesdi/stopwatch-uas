@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>STOPWATCH AMANDA</title>
+        <link rel="stylesheet" href="stopwatch.css">
+        <script src="stopwatch.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="./images/logo.png">
+                </div>
+                <div class="waktu">
+                    <h1 id="waktu"></h1>
+                </div>
+                <div class="judul">
+                    <p class="jdl">STOPWATCH</p>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="stopwatch">
+                    <p class="tampilan" id="menit">00</p> :
+                    <p class="tampilan" id="detik">00</p> :
+                    <p class="tampilan" id="milidetik">00</p> 
+                </div>
+
+                <div class="button">
+                    <button class="buttondata" type="button" id="start" onclick="startstop()">START</button>
+                    <button class="buttondata" type="button" id="reset" onclick="reset()">RESET</button>
+                </div>
+            
+
+            <div class="data">
+                <div class="data1 daftar">
+                    <div class="logodata">
+                        <img src="./images/image1.jpg">
+                    </div>
+                    <p class="nama">AMANDA</p>
+                    <div class="stopwatch1" id="tampilan1">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesaisatu" onclick="selesaisatu()">
+                    SELESAI
+                </button>
+                </div>
+
+                <div class="data2 daftar">
+                    <div class="logodata">
+                        <img src="./images/image2.jpg">
+                    </div>
+                    <p class="nama">SUNGJIN</p>
+                    <div class="stopwatch1" id="tampilan2">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesaidua" onclick="selesaidua()">
+                    SELESAI
+                </button>
+                </div>
+
+                <div class="data3 daftar">
+                    <div class="logodata">
+                        <img src="./images/image3.jpg">
+                    </div>
+                    <p class="nama">BRIAN</p>
+                    <div class="stopwatch1" id="tampilan3">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesaitiga" onclick="selesaitiga()">
+                    SELESAI
+                </button>
+                </div>
+
+                <div class="data4 daftar">
+                    <div class="logodata">
+                        <img src="./images/image4.jpg">
+                    </div>
+                    <p class="nama">JAE</p>
+                    <div class="stopwatch1" id="tampilan4">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesaiempat" onclick="selesaiempat()">
+                    SELESAI
+                </button>
+                </div>
+
+                <div class="data5 daftar">
+                    <div class="logodata">
+                        <img src="./images/image5.jfif">
+                    </div>
+                    <p class="nama">WONPIL</p>
+                    <div class="stopwatch1" id="tampilan5">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesailima" onclick="selesailima()">
+                    SELESAI
+                </button>
+                </div>
+
+                <div class="data6 daftar">
+                    <div class="logodata">
+                        <img src="./images/image6.jpg">
+                    </div>
+                    <p class="nama">DOWOON</p>
+                    <div class="stopwatch1" id="tampilan6">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesaienam" onclick="selesaienam()">
+                    SELESAI
+                </button>
+                </div>
+
+                <div class="data7 daftar">
+                    <div class="logodata">
+                        <img src="./images/image7.jpg">
+                    </div>
+                    <p class="nama">JOONGKI</p>
+                    <div class="stopwatch1" id="tampilan7">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesaitujuh" onclick="selesaitujuh()">
+                    SELESAI
+                </button>
+                </div>
+
+                <div class="data8 daftar">
+                    <div class="logodata">
+                        <img src="./images/image8.jfif">
+                    </div>
+                    <p class="nama">CHANYEOL</p>
+                    <div class="stopwatch1" id="tampilan8">
+                    <p class="tampilanwaktu" id="menit">00</p> :
+                    <p class="tampilanwaktu" id="detik">00</p> :
+                    <p class="tampilanwaktu" id="milidetik">00</p> 
+                </div>
+
+                <button class="buttondata" id="selesaidelapan" onclick="selesaidelapan()">
+                    SELESAI
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="copy">
+                Project : <a href="https://www.facebook.com/amanda.jak.752/" rel="publisher">Amanda/3201916019/4D/UAS</a>
+                <a href="https://github.com/amandahoesdi">Github : Amanda Hoesdi</a>
+            </div>
+        </footer>
+    </div>
+    </body>
+</html>
